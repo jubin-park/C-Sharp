@@ -1,0 +1,92 @@
+0 >>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"><script language='javascript'>alert('가입된 회원이 아니거나 패스워드가 틀립니다.\n\n패스워드는 대소문자를 구분합니다.');history.go(-1);</script>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"><script language='javascript'>alert('회원아이디나 패스워드가 공백이면 안됩니다.');history.go(-1);</script>
+1 >>
+<script language='JavaScript'> location.replace('http://litmus.chonbuk.ac.kr'); </script>
+
+1.URL	:http://litmus.chonbuk.ac.kr/web/exam.change_exam.exe.php
+2.Target	:
+3.Posted	:new_exam=hello
+4.Header	:Referer: http://litmus.chonbuk.ac.kr/exam/
+Content-Type: application/x-www-form-urlencoded
+
+
+/*
+                    request = (HttpWebRequest)WebRequest.Create("http://litmus.chonbuk.ac.kr/exam/");
+                    request.Method = "GET";
+                    request.CookieContainer = cookie;
+
+                    result = (HttpWebResponse)request.GetResponse();
+                    strReceive = result.GetResponseStream();
+                    StreamReader srReadData1 = new StreamReader(strReceive, Encoding.UTF8);
+                    strResult = srReadData1.ReadToEnd();
+
+                    // "잘못된 시험코드이거나 시험시간이 아님"
+
+*/
+
+---------------------------
+
+---------------------------
+
+
+<script language="javascript">
+<!--
+
+function askConfirm(url1, url2, message){
+	if(confirm(message) == true){
+		location.href=url1;
+	}
+	else{	
+		location.href=url2;
+	}
+}
+
+function openurl(url) {
+	location.href=url;
+}
+
+
+function popup(title, url) {
+	var status = "toolbar=no,directories=no,scrollbars=no,resizable=no,status=no,menubar=no,width=240, height=200, top=0,left=20";
+	window.open( url, title,status );
+}
+//-->
+</script>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"><script language='javascript'>alert('잘못된 시험 코드 입니다. 다시 입력해주세요.');</script><script language='JavaScript'> location.replace('http://litmus.chonbuk.ac.kr/exam/'); </script>
+---------------------------
+확인   
+---------------------------
+---------------------------
+
+---------------------------
+
+
+<script language="javascript">
+<!--
+
+function askConfirm(url1, url2, message){
+	if(confirm(message) == true){
+		location.href=url1;
+	}
+	else{	
+		location.href=url2;
+	}
+}
+
+function openurl(url) {
+	location.href=url;
+}
+
+
+function popup(title, url) {
+	var status = "toolbar=no,directories=no,scrollbars=no,resizable=no,status=no,menubar=no,width=240, height=200, top=0,left=20";
+	window.open( url, title,status );
+}
+//-->
+</script>
+<script language="javascript">openurl("/exam/");</script>
+
+---------------------------
+확인   
+---------------------------
