@@ -23,7 +23,6 @@ using HtmlAgilityPack.Samples;
 using Microsoft.Win32;
 
 using SHDocVw;
-using mshtml;
 
 using System.Collections;
 using System.Collections.Specialized;
